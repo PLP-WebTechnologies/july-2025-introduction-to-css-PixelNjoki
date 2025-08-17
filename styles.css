@@ -1,0 +1,42 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Card Example */
+.card {
+  background-color: white;
+  margin: 20px;            /* Space outside */
+  padding: 15px;           /* Space inside */
+  border: 2px solid black; /* Border around */
+}
+
+/* Button */
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+/* Box Model Demo */
+.box-demo {
+  background-color: lightgreen; /* Content background */
+  padding: 20px;                /* Inside space */
+  border: 10px solid yellow;    /* Border */
+  margin: 30px;                 /* Outside space */
+  text-align: center;
+  font-weight: bold;
+}
